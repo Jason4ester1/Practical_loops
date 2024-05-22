@@ -14,16 +14,16 @@ for (let num = 1; num <= 100; num++) {
 
 //Prime Time = part two
 
-//function isPrime(n){
-  //  if (n <= 1) return false 
-    //for (let i = 2;i < n; i++ ){
-      //  if (n % i === 0){
-        //    return false;
-          //  return true;
-        //}
-    //}
-//}
-//console.log('Is $(n) a prime number?',isPrime(n));
+function isPrime(n){
+   if (n <= 1) return false 
+    for (let i = 2;i < n; i++ ){
+       if (n % i === 0){
+           return false;
+           return true;
+        }
+    }
+}
+console.log('Is $(n) a prime number?',isPrime(n));
 
 //Feeling loopy= part 3
 //function parseCSV(csvString) {
